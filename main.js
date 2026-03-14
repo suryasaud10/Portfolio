@@ -79,3 +79,6 @@ document.querySelector('form').addEventListener('submit', e => {
     }, 2000);
   }, 1500);
 });
+
+// Set current year in footer
+document.getElementById("year").textContent = new Date().getFullYear();
